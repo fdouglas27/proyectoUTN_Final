@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import '../styles/components/pages/ContactoPage.css';
-
+// import '../layout/contactos/contactos.js'
 
 const ContactoPage = (props) => {
 
@@ -38,8 +38,13 @@ const ContactoPage = (props) => {
     }
 
     return (
-
+   
         <body>
+             <div className="overlay" id="overlay">
+
+             <p>Federico Douglas Price</p>
+             </div>
+
             <main className="holder contacto">
                 <div>
                     <h2>Contacto Rapido</h2>
@@ -81,10 +86,11 @@ const ContactoPage = (props) => {
                     </ul>
                 </div>
 
-
+                
+               
             </main>
 
-            <div className="overlay" id="overlay"></div>
+
             
         </body>
     );
