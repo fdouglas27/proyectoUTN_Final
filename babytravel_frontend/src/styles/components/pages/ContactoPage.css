@@ -1,0 +1,75 @@
+/*?CONTACTO*/
+
+.contacto {
+    display: flex;
+    gap: 24px;
+  }
+  
+  .contacto div {
+    width: 100%;
+  }
+  
+  .datos p {
+    font-size: 14px;
+  }
+  
+  .datos ul li {
+    font-size: 13px;
+  }
+  
+  .formulario p {
+    display: flex;
+  }
+  
+  .formulario p label {
+    min-width: 80px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .formulario p:nth-child(4) {
+    align-items: start;
+  }
+  
+  .formulario textarea {
+    resize: none;
+    height: 150px;
+  }
+  
+  .overlay {
+    background: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    display: none;
+  }
+  
+  .overlay.is-active {
+    display: block;
+  }
+  
+  input.is-active,
+  textarea.is-active {
+    position: relative;
+    z-index: 3;
+  }
+  
+  /* input.is-active {
+    position: relative;
+    z-index: 3;
+  } */
+  
+  .formulario input[type="submit"] {
+    background: #6da9ed;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    color: #fff;
+    font-size: 1rem;
+    padding: 6px 20px;
+    width: auto;
+    position: relative;
+    left: 5rem;
+    cursor: pointer;
+  }

@@ -1,0 +1,36 @@
+/*?NOVEDADES*/
+
+.novedades {
+    height: 65vh;
+  }
+
+.holder h2 {
+    color: rgb(100, 97, 97);
+    font-weight: 400;
+  }
+
+  .imageHolder {
+    display: flex;
+    align-items: center;
+    align-content: center;
+  }
+
+  .novelties {
+    display: flex;
+    flex-direction: column;
+    border-top: 2px solid #cccccc72;
+  }
+
+  .novelties:nth-child(even) {
+    align-items: end;
+    align-content: end;
+  }
+
+  .box .holder img {
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    
+  }
+

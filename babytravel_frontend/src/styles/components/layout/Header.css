@@ -1,0 +1,36 @@
+/*?HEADER*/
+
+header {
+    background-color: #6b6868;
+    padding: 16px 0;
+    /* display: flex; */
+    /* align-items: center; */
+    justify-content: left;
+    text-align: left;
+    /* position: fixed; */
+  }
+  
+  header h1 {
+    color: white;
+    font-size: 50px;
+    font-weight: 100;
+    font-style: italic;
+    display: inline-block;
+    position: relative;
+    bottom: 25px;
+    margin-left: 30px;
+  }
+  
+  header .holder img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  /* #imagen {re
+    width: 300px;
+    height: auto;
+    border-radius: 5px;
+    background-color: #6b6868;
+  } */

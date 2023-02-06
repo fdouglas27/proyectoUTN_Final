@@ -1,0 +1,58 @@
+/*?Nosotros*/
+
+.historia p {
+    font-size: 12px;
+  }
+
+  /* .staff {
+  border: 4px dotted blue;
+} */
+
+.holder .personas {
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+  }
+  
+  .holder .personas .persona {
+    /* border: 1px solid #ccc; */
+    /* border-radius: 5px; */
+    width: 18%;
+    text-align: center;
+    justify-content: center;
+    padding: 3px;
+    box-sizing: border-box; 
+  }
+  
+  .holder .personas .persona img {
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    max-width: 60%;
+    max-height: 20%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    margin-top: 10px;
+  }
+  
+  .holder .personas .persona h5,
+  .holder .personas .persona h6 {
+    margin: 0;
+    font-weight: normal;
+    color: #2e64a1;
+  }
+  
+  .holder .personas .persona h5 {
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
+  .holder .personas .persona h6 {
+    font-size: 11px;
+    font-style: italic;
+  }
+  
+  .holder .personas .persona p {
+    color: #666;
+    font-size: 10px;
+  }
