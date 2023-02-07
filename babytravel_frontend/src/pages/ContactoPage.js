@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import '../styles/components/pages/ContactoPage.css';
-import '../layout/contactos/contactos.js'
+// import '../layout/contactos/contactos.js'
 
 const ContactoPage = (props) => {
 
